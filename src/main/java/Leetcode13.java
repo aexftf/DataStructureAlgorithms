@@ -20,6 +20,7 @@ public class Leetcode13 {
         for (int i = 0; i <s.length() ; i++) {
             value=m.get(s.charAt(i));
             if((i < s.length() - 1&&value<m.get(s.charAt(i+1)))){
+                //排除最后一个，并且保证前一个小的命题规律。
                 result-=value;
             }
             else {
