@@ -1,3 +1,4 @@
+package Self.implemented.data.structure.senior;
 
 /**
  * @author DELL
