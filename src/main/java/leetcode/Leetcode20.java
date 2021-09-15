@@ -4,7 +4,7 @@ import java.util.Queue;
 import java.util.Stack;
 
 public class Leetcode20 {
-    //栈实现匹配括号
+    // 栈实现匹配括号
     public Boolean isValid(String s) {
 
         Stack<Character> stack = new Stack<>();

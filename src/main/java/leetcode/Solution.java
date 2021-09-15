@@ -1,4 +1,4 @@
-package leetcode;
+package main.java.leetcode;
 
 import sun.text.resources.cldr.ext.FormatData_en_JE;
 
