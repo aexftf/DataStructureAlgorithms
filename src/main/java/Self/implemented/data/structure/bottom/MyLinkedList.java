@@ -1,25 +1,21 @@
 package Self.implemented.data.structure.bottom;
 
-import java.util.LinkedList;
 
 /**
  * @author DELL
  */
-public class MyLinkedList {
+public class MyLinkedList<E> {
+    private class Node{
+        public E e;
+        public Node next;
+
+        public Node(E e, Node next) {
+            this.e = e;
+            this.next = next;
+        }
+    };
 
 
 
-
-
-
-
-
-
-
-    public static void main(String[] args) {
-        LinkedList<Object> linkedList = new LinkedList<>();
-
-
-    }
 
 }
