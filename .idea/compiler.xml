@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="project4" />
+        <module name="java数据结构与算法" />
       </profile>
     </annotationProcessing>
   </component>
